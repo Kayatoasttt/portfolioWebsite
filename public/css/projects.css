@@ -1,0 +1,45 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .title{
+    font-family: 'DM Serif Display', serif;
+    font-size: 80px;
+    color:rgb(130, 72, 94);
+  }
+
+  .heading{
+    padding: 50px 0px 30px 60px;
+  }
+
+  .projectsList{
+    padding-left:60px;
+    padding-right:60px;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  
+  /* Add some padding inside the card container */
+  .cardContainer {
+    padding: 10px 16px;
+    
+  }
+
+  .card{
+    border-radius: 10px;
+    height: 710px;
+  }
+
+  .d-block{
+    height:250px;
+  }

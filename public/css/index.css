@@ -1,0 +1,143 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#FBECE5;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* Main Navbar styling */
+
+#logo {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0.25rem; */
+    padding-top: 20px;
+    
+}
+
+#navLinks ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow:hidden;
+}
+
+#navLinks li {
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+
+#navLinks li a{
+    float:right;
+    text-decoration: none;
+    color:rgb(130, 72, 94);
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+}
+
+#navLinks li a:hover {
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #FFCAD4;
+    
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(130, 72, 94)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    
+}
+
+.custom-toggler.navbar-toggler {
+    outline: none;
+    box-shadow: none;
+} 
+
+/* all section Style*/
+h1 {
+    font-family: 'DM Serif Display', serif;
+}
+
+.title {
+    font-size: 80px;
+    color:rgb(130, 72, 94);
+}
+
+.heading {
+    padding: 60px 0px 60px 60px;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    color:#573140;
+    font-size: 20px;
+}
+
+.sectionBlock {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+/* progressbar styling */
+body::-webkit-scrollbar {
+    width:0;
+}
+
+.scrollPath {
+    position:fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(255,255,255,0.05);
+}
+
+.progressbar {
+    position:fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: linear-gradient(to top, rgb(130, 72, 94),rgb(141, 48, 83));
+    animation: animate 5s linear infinite;;
+}
+
+/* about section styling */
+
+.fullname {
+    font-size: 100px;
+    color: #a02b58;
+}
+
+@media (max-width: 768px) {
+    .fullname {
+        font-size: 90px; /* Adjust the font size as needed */
+    }
+}
+
+/* cards styling  */
+
+section .cards .text-card{
+    border-style: solid;
+    border-color: #573140;
+    border-width: 10px;
+    margin:0 auto;
+    margin-bottom: 80px;
+}
+
+
