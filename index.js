@@ -8,11 +8,11 @@ var port=3001;
 
 var app=express();
 
-app.use(serveStatic(__dirname+"/public"));
+app.use(serveStatic(__dirname));
 
 
 app.get("/", (req, res) => {
-    res.sendFile("/public/index.html", { root: __dirname });
+    res.sendFile("/index.html", { root: __dirname });
 });
 
 
