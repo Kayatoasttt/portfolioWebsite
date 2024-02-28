@@ -128,12 +128,13 @@ h1 {
 }
 
 .title {
-    font-size: 80px;
+    display: flex;;
+    font-size: 7vw;
     color: #b7727f;
 }
 
 .heading {
-    padding: 60px 0px 60px 60px;
+    padding: 0px 0px 60px 60px;
 }
 
 p {
@@ -202,15 +203,67 @@ section {
 
 /* about section styling */
 
+#aboutSection{
+    height:100vh;
+}
+
 .fullname {
-    font-size: 100px;
+    font-size: 8vw;
     color: #a02b58;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .fullname {
-        font-size: 90px; /* Adjust the font size as needed */
+        font-size: 90px;
     }
+} */
+
+.avatar{
+    min-width: 200px;
+    min-height: 200px;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+   
+}
+
+.titled {
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* button styling */
+.downloadBtn {
+  background-color: #a02b58;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.downloadBtn:hover,
+.downloadBtn:focus {
+  background-color: #F082AC;
 }
 
 /* cards styling  */
