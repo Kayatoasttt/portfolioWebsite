@@ -451,11 +451,11 @@ section {
 
 }
 
-.cards {
+/* .cards {
     padding-left: 60px;
     padding-right: 60px;
     flex-direction: row;
-}
+} */
 
 .card-cont{
     margin-left: auto;
@@ -491,7 +491,7 @@ section {
     border-radius: 25px;
     background-color: #0C0404;
     color:#eee;
-    height: 280px;
+    min-height: 350px;
     /* width:280px */
 }
 /*contact section styling*/
