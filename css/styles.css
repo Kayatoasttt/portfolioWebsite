@@ -122,6 +122,13 @@ nav ul li a.current{
     font-size: 18px;
 }
 
+.sideName{
+    color: #f5a3b2;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: medium;
+}
 /* all section Style*/
 h1 {
     font-family: 'DM Serif Display', serif;
@@ -492,6 +499,15 @@ section {
     background-color: #0C0404;
     color:#eee;
     min-height: 350px;
+    /* width:280px */
+}
+
+.cert-card{
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #0C0404;
+    color:#eee;
+    min-height: 250px;
     /* width:280px */
 }
 /*contact section styling*/
