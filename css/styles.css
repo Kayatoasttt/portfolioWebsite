@@ -137,20 +137,30 @@ h1 {
     padding: 0px 0px 60px 60px;
 }
 
-p {
+#aboutSection p {
     font-family: 'Roboto Slab', serif;
     color:#FFCAD4;
     font-size: 20px;
 }
 
-.sectionBlock {
+#aboutSection .sectionBlock {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* #experienceSection .sectionBlock {
+    padding-left: 60px;
+    padding-right: 60px;
+} */
+
+#ccaSection .sectionBlock {
     padding-left: 60px;
     padding-right: 60px;
 }
 
 section {
-    padding-top: 80px;
-    /* min-height: 100vh; */
+    padding-top: 60px;
+    min-height: 100vh;
 }
 
 
@@ -202,10 +212,6 @@ section {
 } */
 
 /* about section styling */
-
-#aboutSection{
-    height:100vh;
-}
 
 .fullname {
     font-size: 8vw;
@@ -266,16 +272,203 @@ section {
   background-color: #F082AC;
 }
 
+/* Resume section styling */
+.detailsContainer {
+    height:70vh;
+    text-align: center;
+}
+
+
+.detailsContainer ul li a{
+    color: #f5a3b2;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 0.8rem;
+}
+
+.detailsContainer ul li {
+    position: relative;
+    list-style-type: none;
+    height: 50px;
+    margin: 0.8rem auto;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.contactContainer {
+    display: inline-block;
+    text-align: left;
+}
+
+.detailsContainer ul li a i {
+    min-width: 50px;
+    text-align: center;
+    height: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+}
+
+.detailsContainer ul li a:hover {
+    color: #a02b58;
+}
+
+.pic {
+    border-radius: 50%;
+    width: 280px;
+    height:280px;
+    margin-bottom: 40px;
+}
+
+.expContainer {
+    height:70vh;
+    color: #fcfcfc;
+}
+
+.expBlock ul li{
+    position: relative;
+    list-style-type: none;
+}
+
+
+.expHeader {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.expHeader i {
+    min-width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    font-size:25px;
+}
+
+
+.skillsContainer {
+    color: #fcfcfc;
+    height:70vh;
+}
+
+.skillsBlock ul li{
+    position: relative;
+    list-style-type: none;
+    line-height: 40px;
+}
+
+
+
 /* cards styling  */
 
-section .cards .text-card {
+/* .cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item {
+    height: 70vh;
+}
+
+.card{
+    margin:0.5em;
+    color:#fff;
+    background-color: #0C0404;
+} */
+
+
+/* section .cards .text-card {
     border-style: solid;
     border-color: #573140;
     border-width: 6px;
     margin:0 auto;
     margin-bottom: 150px;
     box-shadow: 0 0 18px 5px #82485e;
+} */
+
+.project-card {
+    border-radius: 25px;
+    background-color: #0C0404;
+    color:#eee;
+    width:290px
 }
+
+.image-content,
+.card-content {
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-content {
+    row-gap: 5px;
+}
+
+.slide-content {
+    margin: 40px;
+}
+
+.slide-container {
+    max-width: 1300px;
+    width:100%;
+
+    padding: 40px;
+}
+.card-image {
+    position:relative;
+    height: 150px;
+    width: 150px;
+    background: #a02b58;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #eee;
+
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #f5a3b2;
+}
+
+.description {
+    font-size: 14px;
+    color:#fcfcfc;
+    text-align: center;
+
+}
+
+.cards {
+    padding-left: 60px;
+    padding-right: 60px;
+    flex-direction: row;
+}
+
+.card-cont{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .swiper-navBtn{
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover{
+    color: #a02b58;
+} */
+
+
 
 .reveal{
     position: relative;
@@ -289,10 +482,17 @@ section .cards .text-card {
     opacity: 1;
 }
 
-
+.cred-card{
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #0C0404;
+    color:#eee;
+    height: 280px;
+    /* width:280px */
+}
 /*contact section styling*/
 
-.container{
+/* .container{
     height: 200px;
     width:350px;
     position: absolute;
@@ -300,7 +500,6 @@ section .cards .text-card {
 }
 
 .envelope{
-    /* background-color: #82485e; */
     height: 150px;
     width: 270px;
     position: absolute;
@@ -362,4 +561,5 @@ section .cards .text-card {
 
 #contactSection {
     min-height: 90vh;
-}
+} */
+  

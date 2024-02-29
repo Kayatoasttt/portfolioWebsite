@@ -17,6 +17,11 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- swiper CSS -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.css"> -->
+
     <!-- jQuery library-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -28,9 +33,11 @@
 
     <!--icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/fc0819f688.js" crossorigin="anonymous"></script>
 
 </head>
-
+<!-- swiper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
 <body>
     <div class="progressbar"></div>
     <div class="scrollPath"></div>
@@ -70,15 +77,15 @@
             </li>
             <li>
                 <a href="#ccaSection">
-                    <i class="bx bxs-balloon"></i>
-                    <span class="nav-item">Extra Curriculars</span>
+                    <i class="fa-solid fa-award"></i>
+                    <span class="nav-item">Credentials</span>
                 </a>
 
             </li>
         </ul>
     </nav>
 
-    <div class="main-content">
+    <div class="main-content ">
 
         <!-- <nav class="navbar navbar-expand-md fixed-top">
                 <a class="navbar-brand" href="index.html">
@@ -138,137 +145,391 @@
                 <h1 class="title">Resume</h1>
             </div>
 
-            <div class="sectionBlock">
-
-                <div class="cards">
-                    <div class="text-card col-lg-10 reveal">
-                        <h3>Card Title</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="sectionBlock row">
+                <div class="detailsContainer bg-danger col-sm-12 col-md-6 col-lg-4">
+                    <div class="picContainer reveal d-flex justify-content-center">
+                        <img class="pic" src="images/rsmImg.jpg">
                     </div>
 
-                    <div class="text-card col-lg-10 reveal">
-                        <h3>Card Title</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    </div>
-
-                    <div class="text-card col-lg-10 reveal">
-                        <h3>Card Title</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    </div>
+                    <ul class="contactContainer reveal">
+                        <li>
+                            <a href="mailto:kavyagopinath23@gmail.com">
+                                <i class="fa-regular fa-envelope"></i>
+                                <span class="contact">kavyagopinath23@gmail.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.linkedin.com/in/kavya-gopinath-a53274238">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <span class="contact">Kavya Gopinath</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/qr/SPJPGPRX2I6SN1">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <span class="contact">+65 8850 8381</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Kayatoasttt">
+                                <i class="fa-brands fa-github"></i>
+                                <span class="contact">https://github.com/Kayatoasttt</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
+                <div class="expContainer col-sm-12 col-md-6 col-lg-4">
+
+                    <div class="expBlock col-12 reveal">
+                        <ul>
+                            <li>
+                                <div class="expHeader">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    <h4>Education</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <h5>Singapore Polytechnic</h5>
+                            </li>
+                            <li>
+                                <h5>Diploma in Information Technology</h5>
+                            </li>
+                            <li>
+                                <h6 class="duration">Mar 2021 - Present</h6>
+                            </li>
+                            <li>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived not only five centuries, but also the leap into electronic typesetting,
+                                    remaining essentially unchanged.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="expBlock col-12 reveal">
+                        <ul>
+                            <li>
+                                <div class="expHeader">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                    <h4>Experience</h4>
+                                </div>
+                            </li>
+                            <li>
+                                <h5>Accenture</h5>
+                            </li>
+                            <li>
+                                <h5>Internship</h5>
+                            </li>
+                            <li>
+                                <h6 class="duration">Mar 2023 - Jan 2024</h6>
+                            </li>
+                            <li>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived not only five centuries, but also the leap into electronic typesetting,
+                                    remaining essentially unchanged.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="skillsContainer row col-sm-12 col-md-6 col-lg-4">
+                    <div class="skillsBlock reveal col-6">
+                        <ul>
+                            <li>
+                                <div class="skillsHeader">
+                                    <h5>Hard skills</h5>
+                                </div>
+                            </li>
+                            <li>Full Stack Web Development</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                        </ul>
+                    </div>
+
+                    <div class="skillsBlock reveal col-6">
+                        <ul>
+                            <li>
+                                <div class="skillsHeader">
+                                    <h5>Soft skills</h5>
+                                </div>
+                            </li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li>
+                                <div class="skillsHeader">
+                                    <h5>Languages</h5>
+                                </div>
+                            </li>
+                            <li>Lorem Ipsum</li>
+                            <li>Lorem Ipsum</li>
+                        </ul>
+
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="projectSection">
+        <!-- <section id="projectSection">
             <div class="heading">
                 <h1 class="title">Projects</h1>
             </div>
 
-            <div class="sectionBlock">
+            <div class="sectionBlock d-flex justify-content-center align-items-center">
 
-                <div class="cards">
-                    <div class="text-card col-lg-10 reveal">
-                        <h3>Card Title</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    </div>
+                <div class="slide-container  swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="project-card card border-light swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="images/graphic1.png" alt="graphic" class="card-img">
+                                    </div>
+                                </div>
 
-                    <div class="text-card col-lg-10 reveal">
-                        <h3>Card Title</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    </div>
+                                <div class="card-content">
+                                    <h2 class="name">Sum name 1</h2>
+                                    <p class="description">Some quick example text to build on the card title and make
+                                    </p>
 
-                    <div class="text-card col-lg-10 reveal">
-                        <h3>Card Title</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <button class="downloadBtn">View More</button>
+                                </div>
+
+                            </div>
+
+                            <div class="project-card card border-light swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="images/graphic1.png" alt="graphic" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Sum name 2</h2>
+                                    <p class="description">Some quick example text to build on the card title and make
+                                    </p>
+
+                                    <button class="downloadBtn">View More</button>
+                                </div>
+
+                            </div>
+
+                            <div class="project-card card border-light swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="images/graphic1.png" alt="graphic" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Sum name 3</h2>
+                                    <p class="description">Some quick example text to build on the card title and make
+                                    </p>
+
+                                    <button class="downloadBtn">View More</button>
+                                </div>
+
+                            </div>
+
+                            <div class=" project-cardcard border-light swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="images/graphic1.png" alt="graphic" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Sum name 4</h2>
+                                    <p class="description">Some quick example text to build on the card title and make
+                                    </p>
+
+                                    <button class="downloadBtn">View More</button>
+                                </div>
+
+                            </div>
+
+                            <div class="project-card card border-light swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="images/graphic1.png" alt="graphic" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Sum name 5</h2>
+                                    <p class="description">Some quick example text to build on the card title and make
+                                    </p>
+
+                                    <button class="downloadBtn">View More</button>
+                                </div>
+
+                            </div>
+
+                            <div class="project-card card border-light swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="images/graphic1.png" alt="graphic" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Sum name 6</h2>
+                                    <p class="description">Some quick example text to build on the card title and make
+                                    </p>
+
+                                    <button class="downloadBtn">View More</button>
+                                </div>
+
+                            </div>
+
+                            <div class="project-card card border-light swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="images/graphic1.png" alt="graphic" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Sum name 7</h2>
+                                    <p class="description">Some quick example text to build on the card title and make
+                                    </p>
+
+                                    <button class="downloadBtn">View More</button>
+                                </div>
+
+                            </div>
+
+                            <div class="project-card card border-light swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="images/graphic1.png" alt="graphic" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Sum name 8</h2>
+                                    <p class="description">Some quick example text to build on the card title and make
+                                    </p>
+
+                                    <button class="downloadBtn">View More</button>
+                                </div>
+
+                            </div>
+
+                            <div class="project-card card border-light swiper-slide">
+                                <div class="image-content">
+                                    <div class="card-image">
+                                        <img src="images/graphic1.png" alt="graphic" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">Sum name 9</h2>
+                                    <p class="description">Some quick example text to build on the card title and make
+                                    </p>
+
+                                    <button class="downloadBtn">View More</button>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
+                
+
 
             </div>
-        </section>
+        </section> -->
 
-        <section id="ccaSection">
+        <!-- <section id="ccaSection">
             <div class="heading">
-                <h1 class="title">Extra Curriculars</h1>
+                <h1 class="title">Credentials</h1>
             </div>
 
-            <div class="sectionBlock">
+            <div class="sectionBlock row d-flex">
 
-                <div class="cards">
-                    <div class="text-card col-lg-10 reveal">
-                        <h3>Card Title</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <div class="credContainer1 bg-danger col-sm-12 col-md-6 col-lg-4 align-items-center">
+                    <div class="card-cont bg-info d-flex justify-content-center">
+                        <div class="cred-card card col-10 border-light reveal">
+                            <h3>Card Title</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, </p>
+                        </div>
                     </div>
-
-                    <div class="text-card col-lg-10 reveal">
-                        <h3>Card Title</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <div class="card-cont bg-info d-flex justify-content-center">
+                        <div class="cred-card card col-10 border-light reveal">
+                            <h3>Card Title</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, </p>
+                        </div>
                     </div>
-
-                    <div class="text-card col-lg-10 reveal">
-                        <h3>Card Title</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting,
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <div class="credContainer1 bg-danger col-sm-12 col-md-6 col-lg-4 align-items-center">
+                    <div class="card-cont bg-info d-flex justify-content-center">
+                        <div class="cred-card card col-10 border-light reveal">
+                            <h3>Card Title</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, </p>
+                        </div>
+                    </div>
+                    <div class="card-cont bg-info d-flex justify-content-center">
+                        <div class="cred-card card col-10 border-light reveal">
+                            <h3>Card Title</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="credContainer1 bg-danger col-sm-12 col-md-6 col-lg-4 align-items-center">
+                    <div class="card-cont bg-info d-flex justify-content-center">
+                        <div class="cred-card card col-10 border-light reveal">
+                            <h3>Card Title</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, </p>
+                        </div>
+                    </div>
+                    <div class="card-cont bg-info d-flex justify-content-center">
+                        <div class="cred-card card col-10 border-light reveal">
+                            <h3>Card Title</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, </p>
+                        </div>
                     </div>
                 </div>
 
-            </div>
-        </section>
 
-        <section id="contactSection">
+
+            </div>
+        </section> -->
+
+        <!-- <section id="contactSection">
             <div class="heading">
                 <h1 class="title">Contact Me</h1>
             </div>
@@ -289,10 +550,15 @@
 
                 </div>
             </div>
-        </section>
+        </section> -->
 
     </div>
 </body>
+
+<!-- Swiper JS -->
+<!-- <script src="js/swiper-bundle.min.js"></script> -->
+
+<!-- Script JS -->
 <script src="js/script.js"></script>
 
 </html>
