@@ -71,23 +71,10 @@ var swiper = new Swiper(".slide-content", {
     spaceBetween: 25,
     // slidesPerGroup: 3,
     loop: true,
-    lazy: true,
     centeredSlides: true,
     fadeEffect: { crossFade: true },
-    grabCursor : true,
+    grabCursor : true
     // loopFillGroupWithBlank: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-      dynamicBullets: true,
-    },
-    autoplay: {
-              delay: 2500,
-            },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
   });
 
 // var mySwiper = new Swiper ('.swiper-container', {

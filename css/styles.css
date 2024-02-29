@@ -157,6 +157,10 @@ h1 {
     padding-left: 60px;
     padding-right: 60px;
 }
+#projectSection .sectionBlock {
+    padding-left: 60px;
+    padding-right: 60px;
+}
 
 section {
     padding-top: 60px;
@@ -457,6 +461,7 @@ section {
 .card-cont{
     margin-left: auto;
     margin-right: auto;
+    min-width: 280px;
 }
 
 /* .swiper-navBtn{
