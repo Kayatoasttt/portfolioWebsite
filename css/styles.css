@@ -410,12 +410,12 @@ section {
     box-shadow: 0 0 18px 5px #82485e;
 } */
 
-.project-card {
+/* .project-card {
     border-radius: 25px;
-    background-color: #0C0404;
+    background-color: #fff;
     color:#eee;
     width:290px
-}
+} */
 
 .image-content,
 .card-content {
@@ -507,8 +507,19 @@ section {
     border-radius: 25px;
     background-color: #0C0404;
     color:#eee;
-    min-height: 350px;
+    height: 450px;
+    padding: 10px 15px 10px 15px;
     /* width:280px */
+}
+
+.cred-card h3 {
+    padding-bottom: 20px;
+    color: #b7727f;
+}
+
+.cred-card .downloadBtn {
+    position: absolute;
+    bottom: 30px;
 }
 
 .cert-card{
@@ -517,8 +528,20 @@ section {
     background-color: #0C0404;
     color:#eee;
     min-height: 250px;
+    padding: 10px 15px 10px 15px;
     /* width:280px */
 }
+
+.cert-card h3 {
+    padding-bottom: 10px;
+    color: #b7727f;
+}
+
+.cert-card .downloadBtn {
+    position: absolute;
+    bottom: 30px;
+}
+
 /*contact section styling*/
 
 /* .container{
