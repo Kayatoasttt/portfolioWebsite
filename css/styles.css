@@ -284,10 +284,19 @@ section {
 
 /* Resume section styling */
 .detailsContainer {
-    height:70vh;
+    height:700px;
     text-align: center;
 }
 
+.expContainer {
+    height:700px;
+    margin-bottom: 100px;
+}
+
+.skillsContainer {
+    height:700px;
+    margin-bottom: 100px;
+}
 
 .detailsContainer ul li a{
     color: #f5a3b2;
