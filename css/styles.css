@@ -12,6 +12,7 @@ body {
     overflow: hidden;
     overflow-y: scroll;
     background-color:#0C0404;
+    font-family: "Roboto Mono", monospace;
 }
 
 .user-img {
@@ -131,7 +132,9 @@ nav ul li a.current{
 }
 /* all section Style*/
 h1 {
-    font-family: 'DM Serif Display', serif;
+    /* font-family: 'DM Serif Display', serif; */
+    /* font-family: "Share Tech Mono", monospace; */
+    font-family: "Ubuntu Mono", monospace;
 }
 
 .title {
@@ -145,9 +148,10 @@ h1 {
 }
 
 #aboutSection p {
-    font-family: 'Roboto Slab', serif;
-    color:#FFCAD4;
-    font-size: 20px;
+    /* font-family: 'Roboto Slab', serif; */
+    
+    color:#FFF;
+    font-size: 18px;
 }
 
 #aboutSection .sectionBlock {
@@ -224,7 +228,7 @@ section {
 /* about section styling */
 
 .fullname {
-    font-size: 8vw;
+    font-size: 6.5vw;
     color: #a02b58;
 }
 
@@ -340,7 +344,6 @@ section {
 }
 
 .expContainer {
-    height:70vh;
     color: #fcfcfc;
 }
 
@@ -349,7 +352,9 @@ section {
     list-style-type: none;
 }
 
-
+.expBlock h5{
+    color:#b7727f;
+}
 .expHeader {
     display: flex;
     align-items: center;
@@ -364,10 +369,14 @@ section {
     font-size:25px;
 }
 
+.duration {
+    
+    color:#a02b58;
+    font-weight: bold;
+}
 
 .skillsContainer {
     color: #fcfcfc;
-    height:70vh;
 }
 
 .skillsBlock ul li{
@@ -507,7 +516,7 @@ section {
     border-radius: 25px;
     background-color: #0C0404;
     color:#eee;
-    height: 450px;
+    height: 520px;
     padding: 10px 15px 10px 15px;
     /* width:280px */
 }
@@ -527,7 +536,7 @@ section {
     border-radius: 25px;
     background-color: #0C0404;
     color:#eee;
-    min-height: 250px;
+    height: 260px;
     padding: 10px 15px 10px 15px;
     /* width:280px */
 }
