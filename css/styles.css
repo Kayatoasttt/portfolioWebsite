@@ -516,7 +516,7 @@ section {
     border-radius: 25px;
     background-color: #0C0404;
     color:#eee;
-    height: 520px;
+    min-height: 520px;
     padding: 10px 15px 10px 15px;
     /* width:280px */
 }
@@ -536,7 +536,7 @@ section {
     border-radius: 25px;
     background-color: #0C0404;
     color:#eee;
-    height: 260px;
+    min-height: 260px;
     padding: 10px 15px 10px 15px;
     /* width:280px */
 }
